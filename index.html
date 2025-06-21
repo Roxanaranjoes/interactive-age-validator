@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Message System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--  Preloader -->
+    <div id="preloader">
+      <div class="loader-content">
+        <h1>Interactive Age Validator</h1>
+        <div class="spinner"></div>
+      </div>
+    </div>
+
+    <!--  Main Page Content -->
+    <header>
+      <h1 class="hidden">Interactive Age Validator</h1>
+    </header>
+
+    <main class="container" aria-label="Main interactive content">
+      <section>
+        <p>Welcome! Click the button below to begin the interaction.</p>
+        <button id="startButton">Start Interaction</button>
+        <div id="consoleMessage" role="status" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 JavaScript Training Module – Week 1</p>
+    </footer>
+
+    <!--  External Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
